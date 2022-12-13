@@ -20,8 +20,8 @@ import (
 
 	"github.com/ghodss/yaml"
 
-	"istio.io/istio/pkg/config/validation"
-	"istio.io/istio/pkg/util/strcase"
+	"istio.io/istio-lib/pkg/config/validation"
+	"istio.io/istio-lib/pkg/util/strcase"
 )
 
 // Direct transform's name. Used for parsing.

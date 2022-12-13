@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	testing "istio.io/istio/pkg/mcp/testing/monitoring"
+	testing "istio.io/istio-lib/pkg/mcp/testing/monitoring"
 	"istio.io/pkg/monitoring"
 )
 

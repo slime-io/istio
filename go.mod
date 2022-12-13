@@ -1,4 +1,4 @@
-module istio.io/istio
+module istio.io/istio-lib
 
 go 1.13
 

@@ -15,7 +15,7 @@
 package mesh
 
 import (
-	"istio.io/istio/pkg/config/mesh"
+	"istio.io/istio-lib/pkg/config/mesh"
 
 	"istio.io/api/mesh/v1alpha1"
 )

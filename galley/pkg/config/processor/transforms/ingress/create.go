@@ -14,7 +14,7 @@
 
 package ingress
 
-import "istio.io/istio/galley/pkg/config/processing/transformer"
+import "istio.io/istio-lib/galley/pkg/config/processing/transformer"
 
 func GetProviders() transformer.Providers {
 	return []transformer.Provider{

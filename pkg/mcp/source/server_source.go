@@ -24,7 +24,7 @@ import (
 	"google.golang.org/grpc/status"
 
 	mcp "istio.io/api/mcp/v1alpha1"
-	"istio.io/istio/pkg/mcp/rate"
+	"istio.io/istio-lib/pkg/mcp/rate"
 )
 
 // TODO: consolidate common interfaces in source/server_source.go and sink/server_sink.go

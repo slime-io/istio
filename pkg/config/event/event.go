@@ -17,8 +17,8 @@ package event
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/collection"
+	"istio.io/istio-lib/pkg/config/resource"
+	"istio.io/istio-lib/pkg/config/schema/collection"
 )
 
 var _ fmt.Stringer = Event{}

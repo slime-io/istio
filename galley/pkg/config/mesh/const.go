@@ -15,7 +15,7 @@
 package mesh
 
 import (
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio-lib/pkg/config/resource"
 )
 
 // MeshConfigResourceName is the resource name for the Istio MeshConfig resource.

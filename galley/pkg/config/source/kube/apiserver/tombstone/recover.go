@@ -21,8 +21,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/galley/pkg/config/scope"
-	"istio.io/istio/galley/pkg/config/source/kube/apiserver/stats"
+	"istio.io/istio-lib/galley/pkg/config/scope"
+	"istio.io/istio-lib/galley/pkg/config/source/kube/apiserver/stats"
 )
 
 // RecoverResource from a kubernetes tombstone (cache.DeletedFinalStateUnknown). Returns the resource or nil if

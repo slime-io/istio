@@ -21,7 +21,7 @@ import (
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/tag"
 
-	"istio.io/istio/galley/pkg/config/scope"
+	"istio.io/istio-lib/galley/pkg/config/scope"
 )
 
 const (

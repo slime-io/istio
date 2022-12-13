@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"sync"
 
-	"istio.io/istio/galley/pkg/config/scope"
-	"istio.io/istio/pkg/config/event"
-	"istio.io/istio/pkg/config/schema/collection"
+	"istio.io/istio-lib/galley/pkg/config/scope"
+	"istio.io/istio-lib/pkg/config/event"
+	"istio.io/istio-lib/pkg/config/schema/collection"
 )
 
 var inMemoryNameDiscriminator int64

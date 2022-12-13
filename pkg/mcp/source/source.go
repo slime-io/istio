@@ -25,10 +25,10 @@ import (
 	"google.golang.org/grpc/peer"
 
 	mcp "istio.io/api/mcp/v1alpha1"
-	"istio.io/istio/pkg/mcp/internal"
-	"istio.io/istio/pkg/mcp/monitoring"
-	"istio.io/istio/pkg/mcp/rate"
-	"istio.io/istio/pkg/mcp/status"
+	"istio.io/istio-lib/pkg/mcp/internal"
+	"istio.io/istio-lib/pkg/mcp/monitoring"
+	"istio.io/istio-lib/pkg/mcp/rate"
+	"istio.io/istio-lib/pkg/mcp/status"
 	"istio.io/pkg/log"
 )
 

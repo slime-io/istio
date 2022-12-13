@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio-lib/pkg/config/resource"
+	"istio.io/istio-lib/pkg/config/schema/collection"
+	"istio.io/istio-lib/pkg/config/schema/collections"
 )
 
 // Origin is a K8s specific implementation of resource.Origin

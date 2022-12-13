@@ -20,7 +20,7 @@ import (
 
 	"istio.io/pkg/pool"
 
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio-lib/pkg/config/resource"
 )
 
 // Version synthesizes a new resource version from existing resource versions. There needs to be at least one version

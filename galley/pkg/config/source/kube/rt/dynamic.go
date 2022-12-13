@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/galley/pkg/config/util/pb"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/listwatch"
+	"istio.io/istio-lib/galley/pkg/config/util/pb"
+	"istio.io/istio-lib/pkg/config/schema/resource"
+	"istio.io/istio-lib/pkg/listwatch"
 )
 
 func (p *Provider) getDynamicAdapter(r resource.Schema) *Adapter {

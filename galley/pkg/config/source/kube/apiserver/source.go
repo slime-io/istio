@@ -22,11 +22,11 @@ import (
 
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 
-	"istio.io/istio/galley/pkg/config/scope"
-	"istio.io/istio/galley/pkg/config/source/kube/rt"
-	"istio.io/istio/pkg/config/event"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/resource"
+	"istio.io/istio-lib/galley/pkg/config/scope"
+	"istio.io/istio-lib/galley/pkg/config/source/kube/rt"
+	"istio.io/istio-lib/pkg/config/event"
+	"istio.io/istio-lib/pkg/config/schema/collection"
+	"istio.io/istio-lib/pkg/config/schema/resource"
 )
 
 var (

@@ -32,8 +32,8 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/util/gogoprotomarshal"
+	"istio.io/istio-lib/pkg/config/constants"
+	"istio.io/istio-lib/pkg/util/gogoprotomarshal"
 )
 
 // DefaultProxyConfig for individual proxies
@@ -97,15 +97,15 @@ func DefaultMeshConfig() meshconfig.MeshConfig {
 		DefaultConfig: &proxyConfig,
 
 		// Not set in the default mesh config - code defaults.
-		RootNamespace:                     constants.IstioSystemNamespace,
-		ProxyListenPort:                   15001,
-		ConnectTimeout:                    types.DurationProto(10 * time.Second),
-		DefaultServiceExportTo:            []string{"*"},
-		DefaultVirtualServiceExportTo:     []string{"*"},
-		DefaultDestinationRuleExportTo:    []string{"*"},
-		DnsRefreshRate:                    types.DurationProto(5 * time.Second), // 5 seconds is the default refresh rate used in Envoy
-		ThriftConfig:                      &meshconfig.MeshConfig_ThriftConfig{},
-		ServiceSettings:                   make([]*meshconfig.MeshConfig_ServiceSettings, 0),
+		RootNamespace:                  constants.IstioSystemNamespace,
+		ProxyListenPort:                15001,
+		ConnectTimeout:                 types.DurationProto(10 * time.Second),
+		DefaultServiceExportTo:         []string{"*"},
+		DefaultVirtualServiceExportTo:  []string{"*"},
+		DefaultDestinationRuleExportTo: []string{"*"},
+		DnsRefreshRate:                 types.DurationProto(5 * time.Second), // 5 seconds is the default refresh rate used in Envoy
+		ThriftConfig:                   &meshconfig.MeshConfig_ThriftConfig{},
+		ServiceSettings:                make([]*meshconfig.MeshConfig_ServiceSettings, 0),
 	}
 }
 

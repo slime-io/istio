@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc/codes"
 
 	mcp "istio.io/api/mcp/v1alpha1"
-	"istio.io/istio/pkg/mcp/monitoring"
-	"istio.io/istio/pkg/mcp/status"
+	"istio.io/istio-lib/pkg/mcp/monitoring"
+	"istio.io/istio-lib/pkg/mcp/status"
 )
 
 var (
